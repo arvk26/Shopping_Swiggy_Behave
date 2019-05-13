@@ -9,12 +9,14 @@
  - ** Open cmd.exe and execute C:\PycharmProjects\Swiggy\venv\Scripts>activate.bat
  - ** Now move to project root folder folder C:\PycharmProjects\Swiggy\ and execute command behave. it will start test.
 
- Latest execution looks like below:
+ Latest execution:
  ======================================
  (venv) C:\PycharmProjects\Swiggy>behave
-Feature: Order on swiggy # features/order_on_swiggy.feature:1
+	
+	Feature: Order on swiggy # features/order_on_swiggy.feature:1
 
-  Scenario: Open browser                                                                                                     # features/order_on_swiggy.feature:3
+	Scenario: Open browser                                                                                                   # features/order_on_swiggy.feature:3
+	
     Given Open browser "chrome" and move to swiggy website                                                                   # features/steps/swiggy_steps.py:10
 
     When Enter location as "Indiranagar, Bengaluru" and choose correct address                                               # features/steps/swiggy_steps.py:20
